@@ -86,3 +86,37 @@ button {
 button:hover {
   background-color: #003f88;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
