@@ -100,7 +100,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: black;
   margin: 0 15px;
   text-decoration: none;
 }
@@ -136,4 +136,94 @@ body {
   padding: 80px 20px;
   color: white;
   text-align: center;
+}
+/* Full-page background */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');   /* ← your image file here */
+  background-size: cover;                    /* cover the entire viewport */
+  background-position: center;               /* center the image */
+  background-repeat: no-repeat;              /* don’t tile it */
+  color: black;                              /* ensure text is readable */
+  margin: 0;
+  padding: 0;
+}
+  
+header, nav, .hero, footer {
+  background: rgba(0, 0, 0, 0.5);             /* translucent overlay for contrast */
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0 auto 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+.btn {
+  background: #ff9900;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #ddd;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('IMG.JNNP.avif');  /* Your image file */
+ /* your hero image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.about, .services {
+  background: white;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2, .services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  font-size: 1.2rem;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
 }
