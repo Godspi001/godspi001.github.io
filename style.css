@@ -120,3 +120,20 @@ h1 {
   display: block;
   margin: 10px auto;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img.jnp');  /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; /* Make text readable on dark image */
+}
+.hero {
+  background-image: url('IMG.JNNP.avif');  /* Your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
